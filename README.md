@@ -2,6 +2,10 @@
 
 A React-based medicine search application using the FDA Drug Label API.
 
+🚧 Project Status
+
+Currently working on this project.
+
 ## 🚀 Live Demo
 
 **[medi-tau-five.vercel.app](https://medi-tau-five.vercel.app/)**
