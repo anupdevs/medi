@@ -2,7 +2,7 @@
 
 A React-based medicine search application using the FDA Drug Label API.
 
-🚧 Project Status
+## 🚧 Project Status
 
 Currently working on this project.
 
