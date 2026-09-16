@@ -56,17 +56,17 @@ function App() {
       />
 
       {medicines.length > 0 && (
-        <div>
-          {medicines.map((medicine, index) => ( // myError1:// Use the index here because the API response doesn't provide a simple id field
+        <div className="pb-5">
+          {/* myError1: Use the index here because the API response doesn't provide a simple id field */}
+          {medicines.map((medicine, index) => ( 
 
             <div
               key={index}
               onClick={() => selectMedicine(medicine)}
             >
+              {/* myError2:The brand name is inside the openfda object in the API response */}
               <h2>
                 {medicine.openfda?.brand_name?.[0]}
-            myError2: // The brand name is inside the openfda object in the API response
-
               </h2>
             </div>
           ))}
